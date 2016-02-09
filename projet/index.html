@@ -4,12 +4,224 @@
 	<head>
 		<title></title>
 		<meta charset="utf-8">
-		 <link rel='stylesheet' href="style.css" media="screen"/>
+		<link rel='stylesheet' href="reset.css" media="screen"/>
+		<link rel='stylesheet' href="style.css" media="screen"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 	</head>
     <script src='./js/jquery-1.11.3.js'></script>
     <script src='./js/main.js'></script>
 	<body>
-        <p>LEL</p>
+        <header>
+			<div class="topbar">
+				<div class="wrap">
+				<img src="./images/subiger.png"></img>
+					<h1>FOOSESHOES</h1>
+					<i class="fa fa-search"></i>
+					<div class="topbar__login"><p>LOGIN or REGISTER</p></div>
+				</div>
+			</div>
+			<nav class="menu">
+				<div class="wrap">
+					<ul class="menu__liste">
+						<li class="menu__liste--accueil">Home<li>
+						<li class="menu__liste--produits">Products<li>
+						<li class="menu__liste--apropos">About<li>
+						<li class="menu__liste--pages">Pages<li>
+						<li class="menu__liste--blog">Blog<li>
+						<li class="menu__liste--contact">Contact<li>
+					</ul>
+				</div>
+			</nav>
+			<div class="lienscompte">
+				<div class="lienscompte__wishlist">
+					<i class="fa fa-star-o"></i>
+					<span class="lienscompte__whishlist__number">30</span>
+				</div>
+				<div class="lienscompte__cart">
+					<i class="fa fa-shopping-cart"></i>
+					<span class="lienscompte__cart__number">0</span>
+				</div>
+			</div>
+		</header>
+		<div class="wrapper">
+			<div class="top">
+				<div class="top__slider">
+					<div class="wrap">
+						<div class="top__slider__image"></div>
+						<div class="top__slider__infos">
+							<div class="squaregreen">
+								<p>$145.99</p>
+							</div>
+							<h2 class="top__slider__infos__nom">Pink Shoes<br\>2013 collection</h2>
+							<p class="top__slider__infos__description">Lorem ipsum dolor sit amet blablabla du texte de description.</p>
+							<div class="top__slider__infos__icones">
+								<div class="top__slider__infos__icones--oeil"></div>
+								<div class="top__slider__infos__icones--etoile"></div>
+								<div class="top__slider__infos__icones--fleche"></div>
+								<div class="top__slider__infos__icones--caddie"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="top__navslider">
+					<div class="wrap">
+						<ul class="top__navslider__barcontent">
+							<li class="top__navslider__barcontent--1"></li>
+							<li class="top__navslider__barcontent--2"></li>
+							<li class="top__navslider__barcontent--3"></li>
+							<li class="top__navslider__barcontent--4"></li>
+							<li class="top__navslider__barcontent--5"></li>
+						</ul>
+						<nav class="top__navslider__itemscontent">
+							<ul class="top__navslider__itemscontent__items">
+								<li class="top__navslider__itemscontent__items__item"><h4>Pink Shoes</h3><p>Now at $149.99</p></li>
+								<li class="top__navslider__itemscontent__items__item"><h4>Anna Field</h3><p>Limited Edition</p></li>
+								<li class="top__navslider__itemscontent__items__item"><h4>Prada</h3><p>Summer is coming</p></li>
+								<li class="top__navslider__itemscontent__items__item"><h4>Casedei</h3><p>All colors available</p></li>
+								<li class="top__navslider__itemscontent__items__item"><h4>Mellow Yellow</h3><p>Free delivery</p></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="specials">
+				<div class="wrap">
+					<div class="specials__vignette">
+						<div class="specials__vignette__infos"><p class="specials__vignette_infos__content">ON SALE</p></div>
+					</div>
+					<div class="specials__vignette">
+						<div class="specials__vignette__infos"><p class="specials__vignette_infos__content">SPECIAL OFFERS</p></div>
+					</div>
+					<div class="specials__vignette">
+						<div class="specials__vignette__infos"><p class="specials__vignette_infos__content">MUST HAVE</p></div>
+					</div>
+				</div>
+			</div>
+			<div class="new">
+				<div class="wrap">
+					<div class="new__top">
+						<h3>New arrivals on FooseShoes</h3>
+						<span class="new__top__show">Show All</span>
+					</div>
+					<div class="new__product">
+						<div class="new__product__picture">
+						
+						</div>
+						<div class="new__product__title">
+							<div class="squaregreen">
+								<p>$145.99</p>
+							</div>
+							<p>Even&Odd</p>
+						</div>
+					</div>
+					<div class="new__product">
+						<div class="new__product__picture">
+							<div class="new__product__picture__sale">
+								<p>ON SALE!</p>
+							</div>
+						</div>
+						<div class="new__product__title">
+							<div class="squaregreen">
+								<p>$145.99</p>
+							</div class="squareblack">
+							<p>Even&Odd</p>
+						</div>
+					</div>
+					<div class="new__product">
+						<div class="new__product__picture">
+							
+						</div>
+						<div class="new__product__title">
+							<div class="squaregreen">
+								<p>$145.99</p>
+							</div>
+							<p>Buffalo Décolletè</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="best">
+				<div class="wrap">
+					<div class="best__top">
+						<h3>Best sellers o the month</h3>
+						<span class="best__top__show">Show All</span>
+					</div>
+					<div class="best__product">
+						<div class="best__product__picture">
+						
+						</div>
+						<div class="best__product__title">
+							<div class="squaregreen">
+								<p>$145.99</p>
+							</div>
+							<p>Even&Odd</p>
+						</div>
+					</div>
+					<div class="best__product">
+						<div class="best__product__picture">
+							
+						</div>
+						<div class="best__product__title">
+							<div class="squaregreen">
+								<p>$145.99</p>
+							</div>
+							<p>Even&Odd</p>
+							<div class="best__product__title__eye"><i class="fa fa-eye"></i></div>
+							<div class="best__product__title__star"><i class="fa fa-star-o"></i></div>
+							<div class="best__product__title__whateveritis"><i class="fa fa-share-square-o"></i></div>
+							<div class="best__product__title__cart"><i class="fa fa-shopping-cart"></i></div>
+						</div>
+					</div>
+					<div class="best__product">
+						<div class="best__product__picture">
+							<div class="squareorange">
+								<p>OUT OF</p><p>STOCK</p>
+							</div>
+						</div>
+						<div class="best__product__title">
+							<div class="squaregreen">
+								<p>$145.99</p>
+							</div>
+							<p>Buffalo Décolletè</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="infos">
+				<div class="infos__box">
+					<p><em>FREE SHIPPING</em></p>
+					<p>
+						Lorem Elsass ipsum ullamcorper leo dignissim morbi baeckeoffe pellentesque chambon Heineken schpeck Richard Schirmeck Carola quam, aliquam lacus kougelhopf barapli bredele tellus knepfle réchime rhoncus Huguette tellus Oberschaeffolsheim
+					</p>
+				</div>
+				<div class="infos__box">
+					<p><em>TESTIMONIALS</em></p>
+					<p>
+						Lorem Elsass ipsum ullamcorper leo dignissim morbi baeckeoffe pellentesque chambon Heineken schpeck Richard Schirmeck Carola quam, aliquam lacus kougelhopf barapli bredele tellus knepfle réchime rhoncus Huguette tellus Oberschaeffolsheim
+					</p>
+				</div>
+				<div class="infos__box--large">
+					<p><em>BLOG NEWS</em></p>
+					<div class="infos__bow--large__line">
+						<div class="greensquare--small">
+							<p>APR</p>
+							<p>01</p>
+						</div>
+						<p class="bold">Wow, much website, such amazing</p>
+						<p>Very template, how beautyful</p>
+					</div>
+					<div class="infos__bow--large__line">
+						<div class="greensquare--small">
+							<p>APR</p>
+							<p>01</p>
+						</div>
+						<p class="bold">Wow, much website, such amazing</p>
+						<p>Very template, how beautyful</p>
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
 		
