@@ -9,58 +9,61 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 	</head>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <script src='./js/jquery-1.11.3.js'></script>
     <script src='./js/main.js'></script>
 	<body>
         <header>
 			<div class="topbar">
 				<div class="wrap">
-				<img src="./images/subiger.png"></img>
+				<!--<img src="./images/subiger.png"></img>-->
 					<h1>FOOSESHOES</h1>
-					<i class="fa fa-search"></i>
 					<div class="topbar__login"><p>LOGIN or REGISTER</p></div>
+					<i class="fa fa-search"></i>
 				</div>
 			</div>
 			<nav class="menu">
 				<div class="wrap">
 					<ul class="menu__liste">
-						<li class="menu__liste--accueil">Home<li>
-						<li class="menu__liste--produits">Products<li>
-						<li class="menu__liste--apropos">About<li>
-						<li class="menu__liste--pages">Pages<li>
-						<li class="menu__liste--blog">Blog<li>
-						<li class="menu__liste--contact">Contact<li>
+						<li class="menu__liste--accueil">Home</li>
+						<li class="menu__liste--produits">Products</li>
+						<li class="menu__liste--apropos">About</li>
+						<li class="menu__liste--pages">Pages</li>
+						<li class="menu__liste--blog">Blog</li>
+						<li class="menu__liste--contact">Contact</li>
 					</ul>
+					<div class="lienscompte">
+						<div class="lienscompte__wishlist">
+							<div>
+								<i class="fa fa-star-o"></i>
+								<span class="lienscompte__whishlist__number">30</span>
+							</div>
+						</div>
+						<div class="lienscompte__cart">
+							<div>
+								<i class="fa fa-shopping-cart"></i>
+								<span class="lienscompte__cart__number">0</span>
+							</div>
+						</div>
+					</div>
 				</div>
 			</nav>
-			<div class="lienscompte">
-				<div class="lienscompte__wishlist">
-					<i class="fa fa-star-o"></i>
-					<span class="lienscompte__whishlist__number">30</span>
-				</div>
-				<div class="lienscompte__cart">
-					<i class="fa fa-shopping-cart"></i>
-					<span class="lienscompte__cart__number">0</span>
-				</div>
-			</div>
 		</header>
 		<div class="wrapper">
 			<div class="top">
 				<div class="top__slider">
-					<div class="wrap">
-						<div class="top__slider__image"></div>
-						<div class="top__slider__infos">
-							<div class="squaregreen">
-								<p>$145.99</p>
-							</div>
-							<h2 class="top__slider__infos__nom">Pink Shoes<br\>2013 collection</h2>
-							<p class="top__slider__infos__description">Lorem ipsum dolor sit amet blablabla du texte de description.</p>
-							<div class="top__slider__infos__icones">
-								<div class="top__slider__infos__icones--oeil"></div>
-								<div class="top__slider__infos__icones--etoile"></div>
-								<div class="top__slider__infos__icones--fleche"></div>
-								<div class="top__slider__infos__icones--caddie"></div>
-							</div>
+					<div class="top__slider__image"></div>
+					<div class="top__slider__infos">
+						<div class="squaregreen">
+							<p>$145.99</p>
+						</div>
+						<h2 class="top__slider__infos__nom">Pink Shoes<br>2013 collection</h2>
+						<p class="top__slider__infos__description">Lorem ipsum dolor sit amet blablabla du texte de description, car oui, le texte de description, c'est bien, donc je vous propose d'acheter ces chaussures.</p>
+						<div class="top__slider__infos__icones">
+							<div class="top__slider__infos__icones__icone"><i class="fa fa-eye"></i></div>
+							<div class="top__slider__infos__icones__icone"><i class="fa fa-star-o"></i></div>
+							<div class="top__slider__infos__icones__icone"><i class="fa fa-share-square-o"></i></div>
+							<div class="top__slider__infos__icones__icone"><i class="fa fa-shopping-cart"></i></div>
 						</div>
 					</div>
 				</div>
@@ -75,149 +78,163 @@
 						</ul>
 						<nav class="top__navslider__itemscontent">
 							<ul class="top__navslider__itemscontent__items">
-								<li class="top__navslider__itemscontent__items__item"><h4>Pink Shoes</h3><p>Now at $149.99</p></li>
-								<li class="top__navslider__itemscontent__items__item"><h4>Anna Field</h3><p>Limited Edition</p></li>
-								<li class="top__navslider__itemscontent__items__item"><h4>Prada</h3><p>Summer is coming</p></li>
-								<li class="top__navslider__itemscontent__items__item"><h4>Casedei</h3><p>All colors available</p></li>
-								<li class="top__navslider__itemscontent__items__item"><h4>Mellow Yellow</h3><p>Free delivery</p></li>
+								<li class="top__navslider__itemscontent__items__item"><h4>Pink Shoes</h4><p>Now at $149.99</p></li>
+								<li class="top__navslider__itemscontent__items__item"><h4>Anna Field</h4><p>Limited Edition</p></li>
+								<li class="top__navslider__itemscontent__items__item"><h4>Prada</h4><p>Summer is coming</p></li>
+								<li class="top__navslider__itemscontent__items__item"><h4>Casedei</h4><p>All colors available</p></li>
+								<li class="top__navslider__itemscontent__items__item"><h4>Mellow Yellow</h4><p>Free delivery</p></li>
 							</ul>
 						</nav>
 					</div>
 				</div>
 			</div>
 			<div class="specials">
-				<div class="wrap">
-					<div class="specials__vignette">
-						<div class="specials__vignette__infos"><p class="specials__vignette_infos__content">ON SALE</p></div>
-					</div>
-					<div class="specials__vignette">
-						<div class="specials__vignette__infos"><p class="specials__vignette_infos__content">SPECIAL OFFERS</p></div>
-					</div>
-					<div class="specials__vignette">
-						<div class="specials__vignette__infos"><p class="specials__vignette_infos__content">MUST HAVE</p></div>
+				<div class="wrap2">
+					<div class="flex">
+						<div class="specials__vignette specials__vignette1">
+							<div class="specials__vignette__infos"><p class="specials__vignette_infos__content">ON SALE</p></div>
+						</div>
+						<div class="specials__vignette specials__vignette2">
+							<div class="specials__vignette__infos"><p class="specials__vignette_infos__content">SPECIAL OFFERS</p></div>
+						</div>
+						<div class="specials__vignette specials__vignette3">
+							<div class="specials__vignette__infos"><p class="specials__vignette_infos__content">MUST HAVE</p></div>
+						</div>
 					</div>
 				</div>
 			</div>
 			<div class="new">
-				<div class="wrap">
+				<div class="wrap2">
 					<div class="new__top">
 						<h3>New arrivals on FooseShoes</h3>
 						<span class="new__top__show">Show All</span>
 					</div>
-					<div class="new__product">
-						<div class="new__product__picture">
-						
-						</div>
-						<div class="new__product__title">
-							<div class="squaregreen">
-								<p>$145.99</p>
+					<div class="new__products">
+						<div class="new__products__product">
+							<div class="new__products__product__picture new__products__product__picture1">
+
 							</div>
-							<p>Even&Odd</p>
+							<div class="new__products__product__title">
+								<div class="squaregreen">
+									<p>$145.99</p>
+								</div>
+								<p>Even&Odd</p>
+							</div>
 						</div>
-					</div>
-					<div class="new__product">
-						<div class="new__product__picture">
-							<div class="new__product__picture__sale">
+						<div class="new__products__product">
+							<div class="new__products__product__picture new__products__product__picture2"></div>
+							<div class="squareblack">
 								<p>ON SALE!</p>
 							</div>
-						</div>
-						<div class="new__product__title">
-							<div class="squaregreen">
-								<p>$145.99</p>
-							</div class="squareblack">
-							<p>Even&Odd</p>
-						</div>
-					</div>
-					<div class="new__product">
-						<div class="new__product__picture">
-							
-						</div>
-						<div class="new__product__title">
-							<div class="squaregreen">
-								<p>$145.99</p>
+							<div class="new__products__product__title">
+								<div class="squaregreen">
+									<p>$145.99</p>
+								</div>
+								<p>Even&Odd</p>
 							</div>
-							<p>Buffalo Décolletè</p>
+						</div>
+						<div class="new__products__product">
+							<div class="new__products__product__picture new__products__product__picture3">
+
+							</div>
+							<div class="new__products__product__title">
+								<div class="squaregreen">
+									<p>$145.99</p>
+								</div>
+								<p>Buffalo Décolletè</p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="best">
-				<div class="wrap">
+				<div class="wrap2">
 					<div class="best__top">
-						<h3>Best sellers o the month</h3>
+						<h3>Best sellers of the month</h3>
 						<span class="best__top__show">Show All</span>
 					</div>
-					<div class="best__product">
-						<div class="best__product__picture">
-						
-						</div>
-						<div class="best__product__title">
-							<div class="squaregreen">
-								<p>$145.99</p>
+					<div class="best__products">
+						<div class="best__products__product">
+							<div class="best__products__product__picture best__products__product__picture1">
+
 							</div>
-							<p>Even&Odd</p>
-						</div>
-					</div>
-					<div class="best__product">
-						<div class="best__product__picture">
-							
-						</div>
-						<div class="best__product__title">
-							<div class="squaregreen">
-								<p>$145.99</p>
-							</div>
-							<p>Even&Odd</p>
-							<div class="best__product__title__eye"><i class="fa fa-eye"></i></div>
-							<div class="best__product__title__star"><i class="fa fa-star-o"></i></div>
-							<div class="best__product__title__whateveritis"><i class="fa fa-share-square-o"></i></div>
-							<div class="best__product__title__cart"><i class="fa fa-shopping-cart"></i></div>
-						</div>
-					</div>
-					<div class="best__product">
-						<div class="best__product__picture">
-							<div class="squareorange">
-								<p>OUT OF</p><p>STOCK</p>
+							<div class="best__products__product__title">
+								<div class="squaregreen">
+									<p>$145.99</p>
+								</div>
+								<p>Even&Odd</p>
 							</div>
 						</div>
-						<div class="best__product__title">
-							<div class="squaregreen">
-								<p>$145.99</p>
+						<div class="best__products__product">
+							<div class="best__products__product__picture best__products__product__picture2">
+
 							</div>
-							<p>Buffalo Décolletè</p>
+							<div class="best__products__product__title">
+								<div class="squaregreen">
+									<p>$145.99</p>
+								</div>
+								<p>Even&Odd</p>
+								<!--<div class="best__product__title__eye"><i class="fa fa-eye"></i></div>
+								<div class="best__product__title__star"><i class="fa fa-star-o"></i></div>
+								<div class="best__product__title__whateveritis"><i class="fa fa-share-square-o"></i></div>
+								<div class="best__product__title__cart"><i class="fa fa-shopping-cart"></i></div>-->
+							</div>
+						</div>
+						<div class="best__products__product">
+							<div class="best__products__product__picture best__products__product__picture3">
+								<div class="squareorange">
+									<p>OUT OF</p><p>STOCK</p>
+								</div>
+							</div>
+							<div class="best__products__product__title">
+								<div class="squaregreen">
+									<p>$145.99</p>
+								</div>
+								<p>Buffalo Décolletè</p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="infos">
-				<div class="infos__box">
-					<p><em>FREE SHIPPING</em></p>
-					<p>
-						Lorem Elsass ipsum ullamcorper leo dignissim morbi baeckeoffe pellentesque chambon Heineken schpeck Richard Schirmeck Carola quam, aliquam lacus kougelhopf barapli bredele tellus knepfle réchime rhoncus Huguette tellus Oberschaeffolsheim
-					</p>
-				</div>
-				<div class="infos__box">
-					<p><em>TESTIMONIALS</em></p>
-					<p>
-						Lorem Elsass ipsum ullamcorper leo dignissim morbi baeckeoffe pellentesque chambon Heineken schpeck Richard Schirmeck Carola quam, aliquam lacus kougelhopf barapli bredele tellus knepfle réchime rhoncus Huguette tellus Oberschaeffolsheim
-					</p>
-				</div>
-				<div class="infos__box--large">
-					<p><em>BLOG NEWS</em></p>
-					<div class="infos__bow--large__line">
-						<div class="greensquare--small">
-							<p>APR</p>
-							<p>01</p>
-						</div>
-						<p class="bold">Wow, much website, such amazing</p>
-						<p>Very template, how beautyful</p>
+				<div class="wrap2">
+					<div class="infos__box">
+						<span>
+							<p><em>FREE SHIPPING</em></p>
+						</span>
+						<p>
+							Lorem Elsass ipsum ullamcorper leo dignissim morbi baeckeoffe pellentesque chambon Heineken schpeck Richard Schirmeck Carola quam, aliquam lacus
+						</p>
 					</div>
-					<div class="infos__bow--large__line">
-						<div class="greensquare--small">
-							<p>APR</p>
-							<p>01</p>
+					<div class="infos__box">
+						<span>
+							<p><em>TESTIMONIALS</em></p>
+						</span>
+						<p>
+							Lorem Elsass ipsum ullamcorper leo dignissim morbi baeckeoffe pellentesque chambon Heineken schpeck Richard Schirmeck Carola quam, aliquam lacus
+						</p>
+						<q>- John Doe -</q>
+					</div>
+					<div class="infos__box--large">
+						<span>
+							<p><em>BLOG NEWS</em></p>
+						</span>
+						<div class="infos__bow--large__line">
+							<div class="greensquare--small">
+								<p>APR</p>
+								<p>01</p>
+							</div>
+							<p class="bold">Wow, much website, such amazing</p>
+							<p>Very template, how beautyful</p>
 						</div>
-						<p class="bold">Wow, much website, such amazing</p>
-						<p>Very template, how beautyful</p>
+						<div class="infos__bow--large__line">
+							<div class="greensquare--small">
+								<p>APR</p>
+								<p>01</p>
+							</div>
+							<p class="bold">Wow, much website, such amazing</p>
+							<p>Very template, how beautyful</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -259,20 +276,24 @@
 					</div>
 				</div>
 				<div class="footer2">
-					<form>
-						<input type="email"></input>
-						<input type="submit"><i class="fa fa-chevron-right"></i></input>
+					<div class="footer2__form">
+						<div class="email"></div>
+						<div class="submit"><i class="fa fa-chevron-right"></i></div>
 					</form>
 					<div class="footer2__social">
 						<div class="footer2__social__button"><i class="fa fa-facebook"></i></div>
 						<div class="footer2__social__button"><i class="fa fa-twitter"></i></div>
 						<div class="footer2__social__button"><i class="fa fa-google-plus"></i></div>
 						<div class="footer2__social__button"><i class="fa fa-linkedin"></i></div>
-						<div class="footer2__social__button"></div>
+						<div class="footer2__social__button"><i class="fa fa-flickr"></i></div>
 					</div>
+				</div>
+				<div class="footer3">
+					<p>Copiright Fooseshoes 2013</p>
+					<p>Designed by FASSEL Thomas</p>
+					<p>Home / Support / Terms and conditions / Faqs / COntact us</p>
 				</div>
 			</footer>
 		</div>
 	</body>
 </html>
-		
